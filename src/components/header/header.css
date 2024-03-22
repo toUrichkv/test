@@ -1,0 +1,28 @@
+header {
+    height: 100px;
+    background: darkblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+header a {
+    font-size: 18px;
+    color: #c4c4c4;
+    text-transform: uppercase;
+    font-weight: normal;
+    min-width: 90px;
+    text-align: center;
+}
+.active-link {
+    font-weight: bold;
+    color: #fff;
+}
+
+@media(max-width: 487px) {
+    header {
+        padding-top: 15px;
+        height: 160px;
+    }
+}

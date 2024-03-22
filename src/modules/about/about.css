@@ -1,0 +1,19 @@
+.about {
+    max-width: 800px;
+    margin: 50px auto;
+}
+.about h3 {
+    color: #000;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    margin-bottom: 30px;
+}
+.about p {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 20.8px */
+}

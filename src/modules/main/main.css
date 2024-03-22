@@ -1,0 +1,81 @@
+.main {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+.main-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.main-top input {
+    width: 640px;
+    height: 48px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    background: #F6F6F6;
+    border: none;
+    box-shadow: 0px 0px 5px 0px gray;
+    outline: none;
+}
+.main-top button {
+    border-radius: 10px;
+    background: #11AE55;
+    border: none;
+    box-shadow: 0px 0px 5px 0px #11AE55;
+    width: 160px;
+    height: 48px;
+    font-size: 16px;
+    color: #fff;
+    outline: none;
+}
+.main-wrapper {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.main-card {
+    max-width: 352px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px gray;
+    background: rgba(128, 128, 128, 0.055);
+    padding: 20px;
+    text-align: center;
+}
+.main-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 5px;
+}
+.main-card h3 {
+    margin-bottom: 5px;
+    padding-top: 20px;
+}
+.main-card h4 {
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+
+.main-card h6 {
+    padding-top: 20px;
+    font-size: 18px;
+    color: indigo;
+    font-family: sans-serif;
+}
+
+.main > button {
+    width: 150px;
+    height: 35px;
+    background: darkblue;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    margin: 50px auto;
+    border: none;
+    box-shadow: 0px 0px 10px 0px darkblue;
+    border-radius:17px
+}
