@@ -6,7 +6,7 @@ const setActive = ({isActive}) => isActive ? 'active-link' : ''
 function Header() {
     const links = [
     {
-        to: '/test',
+        to: '/test/',
         text: 'Main' 
     }, 
     {
@@ -19,7 +19,6 @@ function Header() {
     }, 
     {
         to: '/basket',
-        to: '/basket:id',
         text: 'Basket'
     }]
 
