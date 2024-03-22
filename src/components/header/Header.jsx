@@ -6,7 +6,7 @@ const setActive = ({isActive}) => isActive ? 'active-link' : ''
 function Header() {
     const links = [
     {
-        to: '/test',
+        to: '/',
         text: 'Main' 
     }, 
     {
